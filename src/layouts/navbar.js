@@ -13,8 +13,10 @@ const NavBar = () => {
 
     return (
         <div className="container-fluid nav-wrapper">
-            <div className="nav-style">
+            <div className="navbar navbar-expand-md nav-style">
+            <a href="#" className="nav-brand">
                 <img src={precisionMachineryLogo} className="nav-logo" />
+            </a>
 
                 {/* <button onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</button> */}
                 <div className="nav-anchors">
