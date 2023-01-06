@@ -1,0 +1,36 @@
+.nav-wrapper {
+    background-color: black;
+}
+.nav-logo {
+    width: 20rem;
+    height: 5rem;
+    display: inline;
+}
+
+.nav-style {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-anchors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-anchors > .nav-anchor {
+    text-decoration: none;
+    background-size: 0% 100%;
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out;
+    color: white;
+}
+
+.nav-anchors > .nav-anchor:hover {
+    cursor: pointer;
+    z-index: 1;
+    color: black;
+    background-size: 100% 100%;
+}
