@@ -4,7 +4,7 @@ import "./landingDesc.css"
 const LandingDesc = () => {
 
     return (
-        <div className="container-fluid" style={{backgroundColor: "black"}}>
+        <div className="container" style={{backgroundColor: "black"}}>
         <div className="spacing"></div>
             <div className="row">
                 <div className="col-xs-8 col-md-6">
