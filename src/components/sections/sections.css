@@ -1,0 +1,21 @@
+
+
+.video-format {
+    width: 100%;
+    height: inherit;
+}
+
+.section-title {
+    color: white;
+    text-decoration: underline;
+}
+
+.section-desc {
+    font-size: 1.2rem;
+}
+
+.sectoin-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

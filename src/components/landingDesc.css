@@ -9,3 +9,11 @@
     padding: 50px;
 }
 
+.precision {
+    transition: .4s ease-in-out;
+}
+
+.precision:hover {
+    color:rgb(202, 149, 80);
+
+}

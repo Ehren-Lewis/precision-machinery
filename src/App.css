@@ -1,8 +1,13 @@
 html {
   font-family: 'Courier New', Courier, monospace;
-  background-color: black;
 }
 
 .container {
   background-color: black;
+}
+
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
 }

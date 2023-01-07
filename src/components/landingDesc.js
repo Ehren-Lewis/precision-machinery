@@ -9,7 +9,7 @@ const LandingDesc = () => {
             <div className="row">
                 <div className="col-xs-8 col-md-6">
                 <h2 className="landing-desc">
-                &emsp;&emsp;Precision Machinery provides custom machinery serving various industries. Our team uses advanced technology 
+                &emsp;&emsp;<span className="precision">Precision Machinery</span> provides custom machinery serving various industries. Our team uses advanced technology 
                 to design and build high-quality machines that meet our clients' specific needs.
                 Our goal is to help businesses improve their operations through the use of our innovative machinery.</h2>
                 </div>
