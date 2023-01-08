@@ -16,7 +16,7 @@ const OurWork = () => {
                 </div>
                 <div className="spacesm"></div>
                 <div className="row">
-                    <div className="col-6 section-wrapper">
+                    <div className="col-sm-12 col-md-6 section-wrapper">
                         <h4 className="section-title">United States</h4>
                         <p className="section-desc">In our first facility, one of the first products we ever manufactured is a high-speed 
                         packaging machine that is used by many different types of businesses. 
@@ -33,7 +33,7 @@ const OurWork = () => {
                 <div className="spacesm"></div>
 
                 <div className="row">
-                    <div className="col-6 section-wrapper">
+                    <div className="col-sm-12 col-md-6 section-wrapper">
                         <h4 className="section-title">Mexico</h4>
                         <p className="section-desc">Mexico contains are second, mid-sized facility  that serves a variety
                         of industries and is equipped with a range of machinery and tools. Containing
@@ -50,7 +50,7 @@ const OurWork = () => {
 
 
                 <div className="row">
-                    <div className="col-6 section-wrapper">
+                    <div className="col-sm-12 col-md-6 section-wrapper">
                         <h4 className="section-title">Canada</h4>
                         <p className="section-desc">With our third and latest facility located in Canada,
                         this facility is equipped with the most advanced technology and staffed with a team of highly qualified machinists and engineers,
