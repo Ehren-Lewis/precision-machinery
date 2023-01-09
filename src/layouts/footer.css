@@ -27,4 +27,20 @@ li:not(.list-title) {
 
 .copyright {
     font-size: .75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+
+ /* .copyright a::before {
+    content: "\00a0|\00a0";
+} */
+.copyright a {
+    cursor: pointer;
+}
+
+.copyright :nth-child(2)::before {
+    content: "\00a0|\00a0";
+
 }

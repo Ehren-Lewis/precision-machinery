@@ -50,8 +50,12 @@ const Footer = () => {
             </div>
             <div className="mt-4"></div>
             <div className="row">
-                <div className="col copyright">
+                <div className="col-sm-12 col-md-3 copyright d-flex justify-content-md-end">
                     <p><span>&copy;</span>Precision Machinery All Rights Reserved</p>
+                </div>
+                <div className='col-sm-12 col-md-3 copyright'>
+                    <a>Privacy</a>
+                    <a>Terms</a>
                 </div>
             </div>
         </div>
