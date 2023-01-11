@@ -54,8 +54,8 @@ const Footer = () => {
                     <p><span>&copy;</span>Precision Machinery All Rights Reserved</p>
                 </div>
                 <div className='col-sm-12 col-md-3 copyright'>
-                    <a>Privacy</a>
-                    <a>Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
                 </div>
             </div>
         </div>
