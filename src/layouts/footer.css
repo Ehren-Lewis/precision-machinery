@@ -36,11 +36,20 @@ li:not(.list-title) {
  /* .copyright a::before {
     content: "\00a0|\00a0";
 } */
-.copyright a {
-    cursor: pointer;
-}
+
 
 .copyright :nth-child(2)::before {
     content: "\00a0|\00a0";
 
+}
+
+.copyright button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    align-self:flex-start;
 }
