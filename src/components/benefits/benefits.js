@@ -10,7 +10,7 @@ const Benefits = () => {
         <div className="container">
             <div className="spacemd"></div>
             <div className="row">
-                <h3 className="section-title  text-center">Benefits (I Know I'm lame)</h3>
+                <h3 className="section-title text-center" id="whatwebring">What We Do Best</h3>
             </div>
             <div className="row">
                 <div className="col-10 mx-auto">

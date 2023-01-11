@@ -1,9 +1,8 @@
 import "./sections.css"
-import spacesm from "../../assets/globalstyle.css"
 import conveyorImage from "../../assets/images/conveyorimage.jpg"
 import canadaFacility from "../../assets/images/canadafacility.jpg"
 import mexicoFacility from "../../assets/images/mexicofacility.jpg"
-
+import "../../assets/globalstyle.css"
 const OurWork = () => {
 
 
@@ -12,7 +11,7 @@ const OurWork = () => {
                             <div className="spacesm"></div>
 
                 <div className="row text-center">
-                    <h3 className="section-title">Where We're Located</h3>
+                    <h3 className="section-title" id="wherewevebeen">Where We're Located</h3>
                 </div>
                 <div className="spacesm"></div>
                 <div className="row">
@@ -26,7 +25,7 @@ const OurWork = () => {
                         requirements</p>
                     </div>
                     <div className="col-sm-8 col-md-6 d-flex justify-content-center">
-                        <img className="video-format" src={conveyorImage} style={{objectFit:"contain", width:"inherit"}}></img>
+                        <img className="video-format" src={conveyorImage} style={{objectFit:"contain", width:"inherit"}} alt="people standing around machinery"/>
                     </div>
                 </div>
 
@@ -42,7 +41,7 @@ const OurWork = () => {
                         custom parts and products for our clients.</p>
                     </div>
                     <div className="col-sm-8 col-md-6 d-flex justify-content-center">
-                        <img className="video-format" src={mexicoFacility} style={{objectFit:"contain"}}></img>
+                        <img className="video-format" src={mexicoFacility} style={{objectFit:"contain"}} alt="guy working on a metal pipe"/>
                     </div>
                 </div>
                 
@@ -59,7 +58,7 @@ const OurWork = () => {
                         </p>
                     </div>
                     <div className="col-sm-8 col-md-6 d-flex justify-content-center">
-                        <img className="video-format" src={canadaFacility} style={{objectFit:"contain"}}></img>
+                        <img className="video-format" src={canadaFacility} style={{objectFit:"contain"}} alt="inside a warehouse"/>
                     </div>
                 </div>
 
