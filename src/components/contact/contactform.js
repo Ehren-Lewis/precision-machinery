@@ -21,7 +21,7 @@ const ContactForm = () => {
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control bg-transparent" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
+                            <textarea class="form-control bg-transparent text-light" id="exampleFormControlTextarea1" placeholder="Your Message" rows="3"></textarea>
                         </div>
                         <button type="submit" class="btn form-button" onClick={e => e.preventDefault()}>Submit</button>
                     </form>
